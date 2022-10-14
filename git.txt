@@ -1,0 +1,72 @@
+   31  sudo chmod 400 gitlab-www.pem 
+   33  ssh -i "gitlab-www1.pem" ubuntu@54.209.22.128
+   34  ssh -i "gitlab-www.pem" ubuntu@54.209.22.128
+   36  cp gitlab-www.pem gitlab-www1.pem
+   37  rm -r gitlab-www.pem
+   40  chmod 400 gitlab-www1.pem 
+   41  ssh -i "gitlab-www1.pem" ubuntu@54.209.22.128
+   42  sudo nano gitlab-www1.pem
+   43  sudo chmod gitlab-www1.pem
+   44  sudo chmod 400 gitlab-www1.pem
+   45  ssh -i "gitlab-www1.pem" ubuntu@54.209.22.128
+   46  ssh -i "gitlab-www1.pem" ubuntu@10.201.1.190
+   49  sudo chmod 400 gitlab-www1.pem 
+   50  ssh -i "gitlab-www1.pem" ubuntu@10.201.1.190
+  307  git clone
+  308  git clone git@github.com:Vin65/terraform2.git
+  309  git config --global
+  310  git config --global user.email martin.ades@winedirect.com
+  311  git clone git@github.com:Vin65/terraform2.git
+  315  ssh -T git@github.com
+  316  git clone https://github.com/Vin65/terraform2.git
+  317  git status
+  323  git status
+  324  git branch urlsupdate
+  325  git checkout urlsupdate
+  326  git status
+  327  git checkout master
+  328  git pull
+  329  git status
+  330  git checkout urlsupdate
+  331  git status
+  332  git pull
+  333  git branch --set-upstream-to=origin/urlsupdate
+  334  git pull
+  335  git status
+  336  git add .
+  337  git status
+  338  git commit -m "12/10 Added shop.woknfire.com"
+  339  git config --global user.email "martin.ades@winedirect.com"
+  340  git config --global user.name "Martin Ades"
+  341  git commit -m "12/10 Added shop.woknfire.com"
+  342  git status
+  343  git push
+  351  mkdir git-training
+  352  cd git-training/
+  354  git config --global --list
+  356  rm -r git-training/
+  359  git clone https://github.com/martinvox/git-training.git
+  361  cd git-training/
+  365  git stauts
+  367  git status
+  370  git status
+  371  git add *
+  372  git status
+  373  git commit -m "Addming start.txt"
+  374  git status
+  375  git push
+  376  git push origin master
+  377  git status
+  378  git push
+  380  git push
+  384  rm -r git-training/
+  385  sudo r -r git-training/
+  387  sudo rm -r git-training/
+  390  git clone git@github.com:madeswd/git-training.git
+  392  cd git-training/
+  399  git status
+  400  git add *
+  401  git status
+  402  git commit -m "Adding start.txt"
+  403  git push
+  404  history | grep git > git.txt
